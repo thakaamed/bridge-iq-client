@@ -11,7 +11,7 @@ setup(
     description="Python client for ThakaaMed's imaging AI service",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/thakaamed/bridge-iq-client",
+    url="https://thakaamed.ai",
     project_urls={
         "Bug Tracker": "https://github.com/thakaamed/bridge-iq-client/issues",
     },

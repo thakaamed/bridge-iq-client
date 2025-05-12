@@ -150,4 +150,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Support
 
-For support, please contact support@thakaamed.com or visit [our website](https://thakaamed.com). 
+For support, please contact contact@thakaamed.com or visit [our website](https://thakaamed.ai). 
