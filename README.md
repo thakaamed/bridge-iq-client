@@ -1,8 +1,8 @@
 # BridgeIQ Client for Node.js
 
 ![npm](https://img.shields.io/npm/v/bridge-iq-client)
-![License](https://img.shields.io/github/license/thakaamed/bridge-iq-client)
-![Node.js Version](https://img.shields.io/node/v/bridge-iq-client)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)
 
 A Node.js client library for ThakaaMed's Bridge IQ imaging AI analysis service. This library provides a seamless interface to ThakaaMed's radiography analysis API.
 
@@ -80,6 +80,24 @@ async function analyzeImage() {
   }
 }
 ```
+
+## Examples
+
+The package includes comprehensive examples in the `examples` directory:
+
+```bash
+# Run the full demo script
+node examples/demo.js
+```
+
+The demo script showcases:
+- Client initialization and API health checks
+- Processing single images
+- Processing multiple images in parallel with AsyncBridgeIQClient
+- PDF generation with automated waiting and retry mechanisms
+- Error handling and reporting
+
+For more details, see the README.md file in the examples directory.
 
 ## Features
 
@@ -234,10 +252,12 @@ npm run format
 ### Publishing to NPM
 
 ```bash
-# Build the library
-npm run build
+# Using the publish script (recommended)
+./scripts/publish.sh --test      # Publish with 'next' tag
+./scripts/publish.sh --production # Publish with 'latest' tag
 
-# Publish to NPM
+# Or manually
+npm run build
 npm publish
 ```
 

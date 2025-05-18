@@ -14,7 +14,7 @@ export {
   AnalysisStatusEnum,
   ReportStatusEnum,
   PDFStatusEnum,
-  AnalysisResult
+  AnalysisResult,
 } from './models';
 export {
   BridgeIQError,
@@ -25,9 +25,9 @@ export {
   ValidationError,
   InsufficientTokensError,
   ServerError,
-  RateLimitError
+  RateLimitError,
 } from './exceptions';
 export { Logger, LogLevel, getLogger } from './logger';
 
 // Export hardcoded version - same as in utils.ts
-export const VERSION = '1.0.0'; 
+export const VERSION = '1.0.0';
